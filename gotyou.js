@@ -37,7 +37,7 @@
                 const nameSpan = span.previousElementSibling;
                 if (nameSpan && nameSpan.tagName === 'SPAN') {
                     // 检查用户名
-                    if (nameSpan.textContent.includes("friselove") || nameSpan.textContent.includes("用户")) {
+                    if (nameSpan.textContent.includes("friselove") ) {
                         // 触发点击事件
                         const clickEvent = new MouseEvent('click', {
                             bubbles: true,

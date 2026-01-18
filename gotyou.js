@@ -7,8 +7,8 @@
 // @match        https://live.douyin.com/*
 // @match        https://www.douyin.com/follow/live/*
 // @grant        none
-// @downloadURL https://raw.githubusercontent.com/tzenganew/userscripts/main/gotyou.js
-// @updateURL https://raw.githubusercontent.com/tzenganew/userscripts/main/gotyou.js
+// @downloadURL  https://raw.githubusercontent.com/tzenganew/userscripts/main/gotyou.js
+// @updateURL    https://raw.githubusercontent.com/tzenganew/userscripts/main/gotyou.js
 // ==/UserScript==
 
 (function() {
@@ -23,7 +23,6 @@
         if (elements.length >= 2) {
             return elements[1];
         }
-
         return null;
     }
 

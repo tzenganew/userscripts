@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         gotyou.js
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  监控抖音直播聊天，对特定用户名进行点击
 // @author       You
 // @match        https://live.douyin.com/*
 // @match        https://www.douyin.com/follow/live/*
 // @grant        none
+// @downloadURL https://raw.githubusercontent.com/tzenganew/userscripts/main/gotyou.js
+// @updateURL https://raw.githubusercontent.com/tzenganew/userscripts/main/gotyou.js
 // ==/UserScript==
 
 (function() {

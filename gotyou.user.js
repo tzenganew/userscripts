@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         gotyou.user.js
-// @namespace    http://tampermonkey.net/
-// @version      0.4
+// @namespace    tzenganew
+// @version      0.5.0
 // @description  NA
 // @author       tzenganew
 // @match        https://live.douyin.com/*

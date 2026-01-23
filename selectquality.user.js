@@ -1,18 +1,19 @@
 // ==UserScript==
 // @name         selectquality
 // @namespace    tzenganew
-// @version      1.0
+// @version      0.1.0
 // @description  select quality
 // @author       tzenganew
 // @match        https://live.douyin.com/*
 // @grant        none
 // @run-at       document-idle
+// @downloadURL  https://raw.github.com/tzenganew/userscripts/main/selectquality.user.js
+// @updateURL    https://raw.github.com/tzenganew/userscripts/main/selectquality.user.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    // 定义核心执行函数（封装原有逻辑）
     function clickQualitySelectorLastDiv() {
         // 1. 选取data-e2e属性值为"quality-selector"的div元素
         const qualitySelector = document.querySelector('div[data-e2e="quality-selector"]');

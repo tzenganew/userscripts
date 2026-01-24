@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         selectquality
 // @namespace    tzenganew
-// @version      0.1.0
+// @version      0.1.1
 // @description  select quality
 // @author       tzenganew
 // @match        https://live.douyin.com/*
@@ -39,8 +39,6 @@
         }
     }
 
-    // 网页加载完成后，延迟3分钟（180000毫秒）执行核心函数
-    // document-idle确保网页基本加载完成后再开始计时
-    setTimeout(clickQualitySelectorLastDiv, 180000); // 3分钟 = 3*60*1000 = 180000毫秒
+    setTimeout(clickQualitySelectorLastDiv, 60000); // 3分钟 = 3*60*1000 = 180000毫秒
 
 })();

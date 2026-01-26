@@ -39,6 +39,6 @@
         }
     }
 
-    setTimeout(clickQualitySelectorLastDiv, 180000); // 3分钟 = 3*60*1000 = 180000毫秒
+    setTimeout(clickQualitySelectorLastDiv, 500000); // 3分钟 = 3*60*1000 = 180000毫秒
 
 })();

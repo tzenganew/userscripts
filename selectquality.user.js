@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         selectquality
 // @namespace    tzenganew
-// @version      0.1.1
+// @version      0.1.2
 // @description  select quality
 // @author       tzenganew
 // @match        https://live.douyin.com/*
@@ -39,6 +39,6 @@
         }
     }
 
-    setTimeout(clickQualitySelectorLastDiv, 60000); // 3分钟 = 3*60*1000 = 180000毫秒
+    setTimeout(clickQualitySelectorLastDiv, 180000); // 3分钟 = 3*60*1000 = 180000毫秒
 
 })();
